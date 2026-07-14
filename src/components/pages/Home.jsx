@@ -1,11 +1,21 @@
-import React from 'react'
+import Hero from '../home/Hero'
+import StatsBar from '../home/StatsBar'
+import FeaturedProducts from '../home/FeaturedProducts'
+import FlavorShowcase from '../home/FlavorShowcase'
+import WhyNatural from '../home/WhyNatural'
+import Testimonials from '../home/Testimonials'
+import CTA from '../home/CTA'
 
-function Home() {
+export default function Home() {
   return (
-    <div>
-      Home
-    </div>
+    <main>
+      <Hero />
+      <StatsBar />
+      <FeaturedProducts />
+      <FlavorShowcase />
+      <WhyNatural />
+      <Testimonials />
+      <CTA />
+    </main>
   )
 }
-
-export default Home
