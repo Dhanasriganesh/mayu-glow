@@ -1,0 +1,10 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Default-deny all direct client SDK storage reads and writes.
+    // Storage uploads are handled via Express multipart routes (Admin SDK).
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
