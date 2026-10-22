@@ -6,7 +6,7 @@ import CTA from '../home/CTA'
 const timeline = [
   { year: '2019', title: 'The Beginning', description: 'MayuGlow started in a small kitchen in Hyderabad, making soaps for family and friends using grandmother\'s recipes.' },
   { year: '2020', title: 'First Launch', description: 'Launched with 8 signature flavors online. Sold out within the first week — a sign we were onto something special.' },
-  { year: '2022', title: 'Growing Roots', description: 'Expanded to 30+ flavors and combo packs. Opened our dedicated workshop with a team of 12 artisans.' },
+  { year: '2022', title: 'Growing Roots', description: 'Expanded to 30+ flavors and combo packs. Opened our dedicated workshop with a team of 12.' },
   { year: '2024', title: '25K Strong', description: 'Crossed 25,000 happy customers across India. Introduced sustainable packaging and zero-waste initiatives.' },
   { year: '2026', title: 'The Future', description: '50+ flavors, nationwide delivery, and a mission to make natural skincare accessible to every Indian household.' },
 ]
